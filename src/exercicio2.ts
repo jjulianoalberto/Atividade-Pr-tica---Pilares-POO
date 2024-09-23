@@ -66,9 +66,9 @@ class Velho extends Imovel {
 }
 
 
-const imovelNovo = new Novo("Rua das Flores, 123", 500000, 10000);
+const imovelNovo = new Novo("Rua Graça Aranha, 123", 500000, 10000);
 imovelNovo.imprimeInfo(); 
 
 
-const imovelVelho = new Velho("Av. Brasil, 456", 400000, 20000);
+const imovelVelho = new Velho("Av. Presidente Lucena, 1234", 400000, 20000);
 imovelVelho.imprimeInfo(); 
